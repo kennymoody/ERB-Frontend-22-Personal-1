@@ -7,7 +7,19 @@
     <meta name="keywords" content="JS HTML" />
     <meta name="author" content="KM" />
     <meta name="robots" content="index, follow" />
-    <title>Document</title>
+    <title>Index Page</title>
+    <style>
+        p {
+            background-color: lightgrey;
+        }
+        a {
+            background-color: violet;
+        }
+        p#service {
+            background-color: lightblue;
+        }
+
+    </style>
 </head>
 <body>
     <!-- comment here -->
@@ -58,9 +70,9 @@
         <li>Item 3</li>
      </ol>
      <!-- nested list -->
-     <ol>
+     <ol style="background-image: url('./IMG/file_example_JPG_100kB.jpg');">
         <li>Item 1</li>
-            <ol>
+            <ol >
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
@@ -68,5 +80,30 @@
         <li>Item 2</li>
         <li>Item 3</li>
      </ol>
+     <!-- anchor tag -->
+    <h2>External Link</h2>
+    <a href="https://www.google.com">Go to Google</a>
+    <h2>Internal Link</h2>
+    <a href="https://www.google.com" target="_blank">Go to Google in New Tab</a>
+    <a href="hello.html">Go to Hello Page</a>
+    <a href="mailto:example@example.com">Send Email</a>
+    <a href="./SRC/sample.pdf">Download PDF</a>
+    <!-- Link with Target -->
+    <a href="#service">Go to Service Section</a>
+    <!-- inline CSS will read first rather than the HEAD CSS -->
+    <p style="background-color: lightseagreen;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, assumenda quis aliquid totam tempora odit libero vero explicabo reiciendis, velit autem maiores quia, doloremque necessitatibus fuga eum! Fuga, expedita harum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sint error sed necessitatibus nostrum animi officia, praesentium assumenda dignissimos laboriosam doloremque cum ea consequuntur optio, sapiente, eligendi similique culpa deserunt.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A neque laboriosam hic commodi ipsam ad debitis nam natus, assumenda culpa nulla harum in consectetur alias laborum soluta molestias fuga at.
+    </p>
+    <p id="service">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus amet, veritatis voluptate natus officia quaerat sed aperiam alias quod modi deserunt distinctio aliquam recusandae, vitae quam nihil, ut ex molestias!
+    </p>
+    <figure>
+        <img src="./IMG/file_example_JPG_100kB.jpg" alt="my laptop" width="400px" height="300px" title="my laptop 2"/>
+        <figcaption>Fig.1 My handsome laptop</figcaption>
+    </figure>
+    <img src="./IMG/file_example_JPG_100kB.jpg" alt="my laptop" width="400px" height="300px" title="my laptop 2"/>
+    
 </body>
 </html>
