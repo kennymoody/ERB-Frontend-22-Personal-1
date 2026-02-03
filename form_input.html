@@ -1,58 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Input</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Form Input Example</h1>
     <h2>Please fill in all required fields</h2>
     <form>
-        <div>
-            <label for="name">*Login Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Login Name Here" minlength="5" maxlength="18" required>
-        </div>
-        <br>
-        <div>
-            <label for="email">*Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email Here" readonly value="k@k.com">
-        </div>
-        <br>
-        <div>
-            <label for="password">*Password:</label>
-            <input type="password" id="password" name="password" placeholder="Your Password Here" required>
-        </div>
-        <br>
-        <div>
-            <label for="toy">*Toy:</label>
-            <select name="toy" id="toy" size="1">
-                <option value="doll">Doll</option>
-                <option value="car">Car</option>
-                <option value="ball">Ball</option>
-                <option value="puzzle">Puzzle</option>
-                <option value="robot">Robot</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="food">*Food:</label>
-            <select name="food" id="food" multiple size="4">
-                <option value="apple">Apple</option>
-                <option value="banana">Banana</option>
-                <option value="orange">Orange</option>
-                <option value="grape">Grape</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Please leave your message here" rows="4" cols="50" style="resize: none;"></textarea>
-        </div>
-        <br>
-        <div>
-            <button type="submit">Submit</button>
-        </div>
+      <div>
+        <label for="name">*Login Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Login Name Here"
+          minlength="5"
+          maxlength="18"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">*Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email Here"
+          readonly
+          value="k@k.com"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="password">*Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Your Password Here"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="toy">*Toy:</label>
+        <select name="toy" id="toy" size="1">
+          <option value="doll">Doll</option>
+          <option value="car">Car</option>
+          <option value="ball">Ball</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="robot">Robot</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="food">*Food:</label>
+        <select name="food" id="food" multiple size="4">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="orange">Orange</option>
+          <option value="grape">Grape</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Please leave your message here"
+          rows="4"
+          cols="50"
+          style="resize: none"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <button type="submit">Submit</button>
+      </div>
     </form>
-</body>
+  </body>
 </html>

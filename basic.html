@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="testing page" />
@@ -20,8 +20,8 @@
         }
 
     </style> -->
-</head>
-<body>
+  </head>
+  <body>
     <!-- comment here -->
     <h1>Basic HTML</h1>
     <h2>heading 2</h2>
@@ -30,57 +30,51 @@
     <h5>heading 5</h5>
     <h6>heading 6</h6>
     <!-- Paragarph -->
-    <p> 
-        test test test test test test test test test 
-        test 2 test 2 test 2 test 2 test 2 test 2 test 2 test 2 
-        test 2 test 2 test 2 test 2 test 2 test 2 test 2 test 2 
+    <p>
+      test test test test test test test test test test 2 test 2 test 2 test 2
+      test 2 test 2 test 2 test 2 test 2 test 2 test 2 test 2 test 2 test 2 test
+      2 test 2
     </p>
     <h2>Subject 1</h2>
-    <p>
-        Paragraph 1
-        Paragraph 1
-        Paragraph 1
-        Paragraph 1
-    </p>
+    <p>Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1</p>
     <h3>Subject 2</h3>
-    <p> 
-        Paragraph 2 
-        Paragraph 2 
-        Paragraph 2 
-        Paragraph 2 
-    </p>
+    <p>Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2</p>
     <!-- text -->
-    <p>this is <strong>Important</strong> text </p>
-    <p>this is <em>Emphaized</em> text </p>
+    <p>this is <strong>Important</strong> text</p>
+    <p>this is <em>Emphaized</em> text</p>
     <p>this is <mark>highlight</mark> text</p>
-    <p>this is <del>deleted</del> text </p>
-    <p>this is <ins>inserted</ins> text </p>
-    <p>this is <sub>subscript</sub> text </p>
-    <p>this is <sup>superscript</sup> text </p>
+    <p>this is <del>deleted</del> text</p>
+    <p>this is <ins>inserted</ins> text</p>
+    <p>this is <sub>subscript</sub> text</p>
+    <p>this is <sup>superscript</sup> text</p>
     <!-- unorder list -->
-     <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-     </ul>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
     <!-- order list -->
     <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <!-- nested list -->
+    <ol
+      style="
+        background-image: url(&quot;./IMG/file_example_JPG_100kB.jpg&quot;);
+      "
+    >
+      <li>Item 1</li>
+      <ol>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
-     </ol>
-     <!-- nested list -->
-     <ol style="background-image: url('./IMG/file_example_JPG_100kB.jpg');">
-        <li>Item 1</li>
-            <ol >
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ol>
-        <li>Item 2</li>
-        <li>Item 3</li>
-     </ol>
-     <!-- anchor tag -->
+      </ol>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <!-- anchor tag -->
     <h2>External Link</h2>
     <a href="https://www.google.com">Go to Google</a>
     <h2>Internal Link</h2>
@@ -91,33 +85,53 @@
     <!-- Link with Target -->
     <a href="#service">Go to Service Section</a>
     <!-- inline CSS will read first rather than the HEAD CSS -->
-    <p style="background-color: lightseagreen;">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, assumenda quis aliquid totam tempora odit libero vero explicabo reiciendis, velit autem maiores quia, doloremque necessitatibus fuga eum! Fuga, expedita harum.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sint error sed necessitatibus nostrum animi officia, praesentium assumenda dignissimos laboriosam doloremque cum ea consequuntur optio, sapiente, eligendi similique culpa deserunt.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A neque laboriosam hic commodi ipsam ad debitis nam natus, assumenda culpa nulla harum in consectetur alias laborum soluta molestias fuga at.
+    <p style="background-color: lightseagreen">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+      assumenda quis aliquid totam tempora odit libero vero explicabo
+      reiciendis, velit autem maiores quia, doloremque necessitatibus fuga eum!
+      Fuga, expedita harum. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Dicta sint error sed necessitatibus nostrum animi officia,
+      praesentium assumenda dignissimos laboriosam doloremque cum ea
+      consequuntur optio, sapiente, eligendi similique culpa deserunt. Lorem
+      ipsum dolor sit, amet consectetur adipisicing elit. A neque laboriosam hic
+      commodi ipsam ad debitis nam natus, assumenda culpa nulla harum in
+      consectetur alias laborum soluta molestias fuga at.
     </p>
     <p id="service">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus amet, veritatis voluptate natus officia quaerat sed aperiam alias quod modi deserunt distinctio aliquam recusandae, vitae quam nihil, ut ex molestias!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+      amet, veritatis voluptate natus officia quaerat sed aperiam alias quod
+      modi deserunt distinctio aliquam recusandae, vitae quam nihil, ut ex
+      molestias!
     </p>
-    <hr>
+    <hr />
     <figure>
-        <img src="./IMG/file_example_JPG_100kB.jpg" alt="my laptop" width="400px" height="300px" title="my laptop 2"/>
-        <figcaption>Fig.1 My handsome laptop</figcaption>
+      <img
+        src="./IMG/file_example_JPG_100kB.jpg"
+        alt="my laptop"
+        width="400px"
+        height="300px"
+        title="my laptop 2"
+      />
+      <figcaption>Fig.1 My handsome laptop</figcaption>
     </figure>
     <hr />
-    <br>
-    <br>
-    <img src="./IMG/file_example_JPG_100kB.jpg" alt="my laptop" width="400px" height="300px" title="my laptop 2"/>
+    <br />
+    <br />
+    <img
+      src="./IMG/file_example_JPG_100kB.jpg"
+      alt="my laptop"
+      width="400px"
+      height="300px"
+      title="my laptop 2"
+    />
     <pre>
     This is preformatted text.
     It preserves both spaces      and line breaks.
     Useful for displaying code snippets.
     </pre>
     <!-- code tag -->
-     <code>
-        this is a code tag &lAarr; &lt;h1&gt;
-     </code>
-     <!-- HTML entities -->
+    <code> this is a code tag &lAarr; &lt;h1&gt; </code>
+    <!-- HTML entities -->
     <!-- 
      &copy; - ©
      &reg; - ®
@@ -134,5 +148,5 @@
     &yen; - ¥
     &euro; - €
       -->
-</body>
+  </body>
 </html>
