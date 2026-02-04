@@ -79,6 +79,80 @@
       </div>
       <br />
       <div>
+        <label for="html">HTML:</label>
+        <input
+          type="checkbox"
+          id="html"
+          name="languages"
+          value="html"
+          checked
+        />
+        <label for="css">CSS:</label>
+        <input type="checkbox" id="css" name="languages" value="css" disabled />
+        <label for="js">JS:</label>
+        <input type="checkbox" id="js" name="languages" value="js" />
+      </div>
+      <br />
+      <div>
+        <label for="small">Small:</label>
+        <input type="radio" id="small" name="size" value="small" disabled />
+        <label for="medium">Medium:</label>
+        <input type="radio" id="medium" name="size" value="medium" checked />
+        <label for="large">Large:</label>
+        <input type="radio" id="large" name="size" value="large" />
+      </div>
+      <br />
+      <hr />
+      <h2>Function not use often</h2>
+      <div>
+        <label for="bookingdate">Booking Date:</label>
+        <input type="date" id="bookingdate" name="bookingdate" />
+      </div>
+      <br />
+      <div>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" />
+      </div>
+      <br />
+      <div>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" />
+      </div>
+      <br />
+      <div>
+        <label for="week">Week:</label>
+        <input type="week" id="week" name="week" />
+      </div>
+      <br />
+      <div>
+        <label for="month">Month:</label>
+        <input type="month" id="month" name="month" />
+      </div>
+      <br />
+      <div>
+        <label for="url">Website URL:</label>
+        <input
+          type="url"
+          id="url"
+          name="url"
+          placeholder="https://example.com"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="range">Range (0 to 100):</label>
+        <input
+          type="range"
+          id="range"
+          name="range"
+          min="0"
+          max="100"
+          step="5"
+          value="0"
+        />
+      </div>
+      <br />
+      <div>
         <button type="submit">Submit</button>
       </div>
     </form>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+  </head>
+  <body>
+    <h1>Media Example</h1>
+    <!-- Basic Audio -->
+    <audio
+      src="./SRC/file_example_MP3_700KB.mp3"
+      type="audio/mp3"
+      controls
+    ></audio>
+    <!-- Audio with message -->
+    <audio controls>
+      <source src="./SRC/file_example_MP3_700KB.mp3" type="audio/mp3" />
+      <p>Your browser does not support the audio element.</p>
+    </audio>
+    <!--Audio with autoplay  -->
+    <audio controls autoplay>
+      <source src="./SRC/file_example_MP3_700KB.mp3" type="audio/mp3" />
+      <p>Your browser does not support the audio element.</p>
+    </audio>
+    <!-- Audio with loop -->
+    <audio controls loop>
+      <source src="./SRC/file_example_MP3_700KB.mp3" type="audio/mp3" />
+      <p>Your browser does not support the audio element.</p>
+    </audio>
+    <br />
+    <!-- Basic Video -->
+    <video controls width="400px" src="./SRC/sample-5s.mp4" type="video/mp4">
+      <p>Your browser does not support the video element.</p>
+    </video>
+    <br />
+    <!-- iframe -->
+    <iframe
+      src="./SRC/sample.pdf"
+      frameborder="0"
+      width="500px"
+      height="700px"
+    ></iframe>
+    <br />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0224229547025!2d114.20935223294369!3d22.314991718118932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040130cbe622bb%3A0xf074ca3081261f0!2z6aaZ5riv5YWS56ul6Yar6Zmi!5e0!3m2!1szh-TW!2shk!4v1770171694303!5m2!1szh-TW!2shk"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=T7qlk4QytOf1tbJ1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
