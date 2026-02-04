@@ -1,0 +1,147 @@
+/* universal selector */
+
+* {
+  word-spacing: 3px;
+}
+
+/* element selector */
+
+h2 {
+  color: rgb(32, 210, 91);
+}
+
+/* id selector = # */
+
+#heading {
+  color: blue;
+}
+#unique-box {
+  border: 2px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* #child {
+  color: peru;
+} */
+
+/* class selector = . */
+
+/* class direct class */
+.box > .child {
+  color: rgb(149, 26, 197);
+}
+
+/* class's direct element */
+.box > h2 {
+  color: red;
+}
+
+/* element's direct child  */
+span > h2 {
+  color: pink;
+}
+
+.simple {
+  color: lime;
+}
+
+.box {
+  background-color: rgb(215, 252, 251);
+}
+
+/* decenting selector child, grandchild */
+.box .inner-box {
+  color: rgb(230, 58, 124);
+}
+
+/* multiple classes */
+.inner-box.first-box {
+  color: peru;
+}
+
+/* descent element chile, grandchild */
+div h2 {
+  font-size: 30px;
+}
+
+/* adjacent sibling */
+.first-li + li {
+  background-color: greenyellow;
+}
+
+/* general sibling */
+.first-li ~ li {
+  color: blueviolet;
+}
+
+/* n-child */
+ul li:nth-child(2n + 1) {
+  font-size: 25px;
+}
+
+input[type="text"] {
+  border: 2px solid blue;
+  padding: 10px;
+  color: red;
+}
+
+/* pseudo element */
+p::first-line {
+  font-weight: bold;
+}
+
+/* pseudo class */
+.pseudo-class:hover {
+  text-decoration: underline;
+  color: darkgoldenrod;
+}
+
+h4,
+h5 {
+  font-style: italic;
+}
+
+.class1 {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+}
+
+.class2 {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid grey;
+  width: 33%;
+  height: 90%;
+  background-color: rgba(141, 141, 141, 0.401);
+}
+
+.class3 {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height:25%;
+  background-color: rgba(177, 177, 177, 0.401);
+}
+
+.class4 {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height:55%;
+  background-color: rgba(245, 244, 244, 0.401);
+}
+
+/* .first-box{ color: white } */
+
+/* #unique-box h2 {
+  color: yellow;
+} */
