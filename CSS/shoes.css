@@ -1,0 +1,92 @@
+*,
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid green;
+  line-height: 2;
+}
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* main {
+  border: 2px solid grey;
+  margin: 10px;
+  padding: 10px;
+} */
+
+.mainframe {
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgb(210, 239, 248);
+  max-width: 600px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px auto;
+  border: 2px solid rgb(232, 232, 232);
+  border-radius: 10px;
+  /* opacity: 0.8; */
+}
+
+header {
+  font-style: normal;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  word-spacing: -2px;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.header-sporty {
+  color: red;
+}
+
+.header-formal {
+  color: brown;
+}
+
+.header-casual {
+  color: blue;
+}
+
+.card-content {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+button {
+  border: 0px;
+  color: white;
+  /* padding: 5px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin: 10px auto;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.button-sporty {
+  background-color: red;
+}
+
+.button-formal {
+  background-color: brown;
+}
+
+.button-casual {
+  background-color: blue;
+}
+
+/* aside {
+
+} */
