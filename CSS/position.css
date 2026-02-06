@@ -7,6 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 10px 10px 20px 1px grey; /*x-offset y-offset blur spread color*/
+  text-shadow: 5px 5px 9px rgb(184, 48, 242);
 }
 
 .box-1 {
