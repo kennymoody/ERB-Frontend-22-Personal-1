@@ -1,0 +1,49 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  background-color: lightblue;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 {
+  position: static;
+  left: 30px; /* This will not have any effect since position in static */
+}
+
+.box-2 {
+  position: relative; /*static base but moves the box*/
+  left: 30px; /* This will move the box 30px to right from its normal position */
+  top: 20px; /* This will move the box 20px to bottom from its normal position */
+}
+
+.box-3 {
+  position: fixed; /*out of current dimentions*/ /*position based on browser viewport*/
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.box-4 {
+  position: sticky; /*relative + fixed*/
+  top: 10px;
+  /* z-index: -1; */
+}
+
+.box-5 {
+  position: relative;
+  background-color: lightcoral;
+  width: 600px;
+  height: 600px;
+  z-index: 1;
+}
+
+.box-6 {
+  position: absolute; /*absolute based on parent and parent need to be relative*/
+  top: 20px;
+  right: 20px;
+  z-index: -4;
+}

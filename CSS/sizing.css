@@ -6,10 +6,32 @@
 .box {
   background-color: lightblue;
   color: black;
-  padding: 20px;
+  /* padding: 20px; all sides */
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  padding-left: 100px;
+  padding: 20px 50px 70px 100px; /* top right bottom left */
+  padding: 20px 50px; /* vertical horizontal */
+  padding: 20px 50px 70px; /* top horizontal bottom */
   border: 3px solid green;
-  margin: 10px;
+  /* margin: 10px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 100px;
   /* display: inline-block; */
+  border-color: red;
+  /* border-style: dotted; */
+  border-width: 20px;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-top-color: darkblue;
+  border-bottom-color: lightgrey;
+  border-right-style: dashed;
+  border-top-style:dotted;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .box-1 {
