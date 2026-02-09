@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexcontainer {
+  background-color: lightblue;
+  display: flex;
+  /*if not mention, flex-direction default is row*/
+  flex-direction: row;
+  /* flex-direction: column; */
+  /* gap: 10px; */
+  row-gap: 10px;
+  column-gap: 50px;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 800px;
+}
+
+.flexitems {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(188, 141, 231);
+  border: 1px solid black;
+}

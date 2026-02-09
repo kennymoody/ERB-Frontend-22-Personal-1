@@ -3,22 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/card.css" />
     <title>CARD</title>
   </head>
   <body>
-    <main style="background-color: navy">
-      <article style="background-color: white">
+    <main>
+      <article>
         <!-- SECTION 1 -->
-        <section style="background-color: lightseagreen">
+        <section>
           <header>
-            <h3>FREE</h3>
+            <h3 class="title-free">FREE</h3>
           </header>
-          <article>
-            <p><sup>$</sup><strong>0</strong></p>
-            <p><strong>GREAT FOR STARTERS</strong></p>
-            <p>Discover how to create your first project</p>
-          </article>
-          <button><p>GET STARTED</p></button>
+          <div class="content">
+            <p class="price"><sup>$ </sup><strong>0</strong><sub></sub></p>
+            <p class="dsc-header"><strong>GREAT FOR STARTERS</strong></p>
+            <p class="dsc-content">Discover how to create your first project</p>
+          </div>
+          <div class="linkdiv">
+            <a href="#" class="button">GET STARTED</a>
+          </div>
           <ul>
             <li>1 User</li>
             <li>5 Projects</li>
@@ -27,16 +30,20 @@
           </ul>
         </section>
         <!-- SECTION 2 -->
-        <section style="background-color: mediumturquoise">
+        <section>
           <header>
-            <h3>PRO</h3>
+            <h3 class="title-pro">PRO</h3>
           </header>
-          <article>
-            <p><sup>$</sup><strong>7</strong><sub>/mo</sub></p>
-            <p><strong>FOR PLANNED PROJECTS</strong></p>
-            <p>Bring your designs to the next level and export them</p>
-          </article>
-          <button><p>GET STARTED</p></button>
+          <div class="content">
+            <p class="price"><sup>$ </sup><strong>7</strong><sub>/mo</sub></p>
+            <p class="dsc-header"><strong>FOR PLANNED PROJECTS</strong></p>
+            <p class="dsc-content">
+              Bring your designs to the next level and export them
+            </p>
+          </div>
+          <div class="linkdiv">
+            <a href="#" class="button">GET STARTED</a>
+          </div>
           <ul>
             <li>5 Users</li>
             <li>50 Projects</li>
@@ -45,16 +52,20 @@
           </ul>
         </section>
         <!-- SECTION 3 -->
-        <section style="background-color: rgb(121, 242, 242)">
+        <section>
           <header>
-            <h3>ENTERPRISE</h3>
+            <h3 class="title-enterprise">ENTERPRISE</h3>
           </header>
-          <article>
-            <p><sup>$</sup><strong>12</strong><sub>/mo</sub></p>
-            <p><strong>FOR PROFESSIONAL USE</strong></p>
-            <p>Enjoy limitless use with interactive export options</p>
-          </article>
-          <button><p>GET STARTED</p></button>
+          <div class="content">
+            <p class="price"><sup>$ </sup><strong>12</strong><sub>/mo</sub></p>
+            <p class="dsc-header"><strong>FOR PROFESSIONAL USE</strong></p>
+            <p class="dsc-content">
+              Enjoy limitless use with interactive export options
+            </p>
+          </div>
+          <div class="linkdiv">
+            <a href="#" class="button">GET STARTED</a>
+          </div>
           <ul>
             <li>Unlimited Users</li>
             <li>Unlimited Projects</li>

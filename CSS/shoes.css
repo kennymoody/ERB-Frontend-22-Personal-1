@@ -1,8 +1,13 @@
-*,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-family: Arial, Helvetica, sans-serif;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   line-height: 2;
 }
 
@@ -24,16 +29,39 @@ body {
   margin: 100px auto;
   padding: 20px;
   background-color: rgb(210, 239, 248);
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .card {
   background-color: white;
   padding: 20px;
   margin: 10px auto;
+  margin-bottom: 15px;
   border: 2px solid rgb(232, 232, 232);
   border-radius: 10px;
   /* opacity: 0.8; */
+  box-shadow: 0px 4px 8px rgb(202, 202, 202);
+}
+
+.card-sporty {
+  background-image: url("../IMG/shoes_sporty.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.card-formal {
+  background-image: url("../IMG/shoes_formal.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.card-casual {
+  background-image: url("../IMG/shoes_casual.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -66,9 +94,10 @@ header {
 button {
   border: 0px;
   color: white;
-  /* padding: 5px; */
-  padding-left: 20px;
+  padding: 10px 20px;
+  /* padding-left: 20px;
   padding-right: 20px;
+  padding: 20px; */
   border-radius: 5px;
   margin: 10px auto;
   font-weight: 900;
@@ -85,6 +114,11 @@ button {
 
 .button-casual {
   background-color: blue;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: fuchsia;
 }
 
 /* aside {

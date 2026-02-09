@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  background-color: rgb(255, 119, 0);
+  color: black;
+  padding: 50px 30px;
+  font-weight: bolder;
+}
+
+.flex-nav-main {
+  width: 100%;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  font-size: 20px;
+  gap: 15px;
+  text-decoration: none;
+}
+
+.flex-main {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.flex-section-main {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 70%;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.flex-aside {
+  width: 300px;
+  display: flex;
+  /* justify-content: right; */
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  /* border: 1px solid red; */
+}
+
+.aside-content {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(205, 205, 205);
+  margin-bottom: 10px;
+}
+
+.aside-title {
+  background-color: rgb(255, 119, 0);
+  color:white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
