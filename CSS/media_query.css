@@ -1,0 +1,51 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  .widescreen {
+    background: aqua;
+    background-image: url("https://loremflickr.com/1200/600/paris");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+}
+
+@media (max-width: 992px) {
+  .normal {
+    background: #1bcfc9;
+  }
+}
+
+@media (max-width: 768px) {
+  .tablet {
+    background: #88e4e1;
+  }
+}
+
+@media (max-width: 576px) {
+  .phone {
+    background: #ffb6b6;
+  }
+}
+
+@media (orientation: landscape) {
+  .landscape {
+    background: #ee5e5e;
+  }
+}
+
+@media (min-height: 500px) {
+  .height {
+    background: #ff53d4;
+  }
+}
