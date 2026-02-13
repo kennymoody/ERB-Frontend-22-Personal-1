@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  /* background-color: violet; */
+  padding: 0px 20px;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+p::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+  padding-right: 2px;
+}
+
+p::selection {
+  color: purple;
+  background: yellow;
+}
+
+p::first-line {
+  color: green;
+}
+
+input:required {
+  border-color: red;
+}
+
+input::placeholder {
+  color: red;
+  font-weight: bold;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: lightseagreen;
+  background: white;
+  padding: 0.5rem;
+  border: thin solid grey;
+  border-radius: 3px;
+}
+ul {
+  padding:25px;
+}
+
+li::marker {
+  content: "\1F449";
+}
