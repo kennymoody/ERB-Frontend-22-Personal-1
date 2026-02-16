@@ -45,7 +45,15 @@ body {
   /* grid-template-columns: minmax(300px, 1fr) minmax(200px, 1fr) minmax(100px,1fr); */
 
   /* case 6 : apply repeat() */
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(3, minmax(300px, 1fr)); */
+
+  /* define rows : (1st row) 1fr (2nd row)2fr */
+  /* grid-template-rows: 1fr 2fr; */
+
+    /* grid-template-rows: 1fr 2fr 3fr 4fr; */
+
+  /* auto-rows : the rest of the rows */
+  /* grid-auto-rows: 300px; */
 
   /* gap case 1 : all sides 20px  */
   /* gap : 20px; */
@@ -58,4 +66,13 @@ body {
 
   /* gap case 4 : grid-gap (row and column) : 20px 10px */
   grid-gap: 20px 10px;
+
+/* autofill */
+
+/* grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); */
+
+/* autofit */
+
+grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
 }
