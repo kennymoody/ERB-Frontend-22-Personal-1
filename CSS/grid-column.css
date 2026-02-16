@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+  background: rgb(118, 222, 193);
+}
+
+.item {
+  background-color: coral;
+  padding: 1rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.item-grid {
+  display: grid;
+
+  /* case 1 : by percentage 70% 30% */
+  /* grid-template-columns: 70% 30%; */
+
+  /* case 2 : multiple column rations : 33.3% 33.3% 33.3% */
+  /* grid-template-columns: 33.3% 33.3% 33.3%; */
+
+  /* case 3 : by fr (fractional unit)
+   The fr unit is a flexible length unit that is equal to the length of the gap between grid tracks.
+   In this example, the grid will have 2 equal-sized columns, then 1 equal-sized column, and finally 3 equal-sized columns.
+   The total width of the grid is divided into 6 equal parts, and each column will take up 2, 1, or 3 of those parts respectively. */
+  /* grid-template-columns: 2fr 1fr 3fr; */
+
+  /* case 4 : fixed width with ratio : 600px 1fr 1fr */
+  /* grid-template-columns: 600px 1fr 1fr; */
+
+  /* case 5 : apply minmax() to set min and max width */
+  /* grid-template-columns: minmax(300px, 1fr) minmax(200px, 1fr) minmax(100px,1fr); */
+
+  /* case 6 : apply repeat() */
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+
+  /* gap case 1 : all sides 20px  */
+  /* gap : 20px; */
+
+  /* gap case 2 : grid-row-gap (row only) : 20px */
+  /* grid-row-gap : 20px; */
+
+  /* gap case 3 : grid-column-gap (column only) : 20px */
+  /* grid-column-gap: 20px; */
+
+  /* gap case 4 : grid-gap (row and column) : 20px 10px */
+  grid-gap: 20px 10px;
+}
