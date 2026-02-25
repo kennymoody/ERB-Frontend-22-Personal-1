@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Poiret+One&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Monda", "Poiret One", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  background: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  height: 100vh;
+}
+
+.item-input {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid rgb(79, 79, 79);
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-input-filter {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(79, 79, 79);
+  background: transparent;
+  outline: none;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.btn-link {
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-clear {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid rgb(98, 98, 98);
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.text-red {
+  color: red;
+}
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.items li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px 15px;
+  /* margin: 0 5px 20px; */
+  margin: 10px;
+  font-weight: bold;
+}
+
+.items li:hover {
+  .btn-link {
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-90deg);
+  }
+  background-color: rgb(200, 200, 200);
+}
+
+/* .btn-link:hover {
+  transition: all 0.3s ease-in-out;
+  transform: rotate(-90deg);
+} */
+
+@media (max-width: 500px) {
+  .items li {
+    width: 100%;
+  }
+}
