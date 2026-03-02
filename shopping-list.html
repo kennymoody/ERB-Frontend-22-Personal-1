@@ -17,7 +17,8 @@
     <div class="container">
       <header>
         <img src="./IMG/amazon-ar21.svg" alt="" />
-        <h1>Shopping List</h1>
+        <h1 id="app-title">Shopping List</h1>
+        <!-- <h2><a href="http://www.google.com">LINK HERE</a></h2> -->
       </header>
       <form action="" id="item-form">
         <div class="form-control">
@@ -42,39 +43,40 @@
           id="filter"
           placeholder="Filter Items"
         />
-        <ul class="items" id="item-list">
-          <li>
+        <ul class="items parent" id="item-list">
+          <!-- this is a comment for nodelist -->
+          <li class="item">
             Apple
             <button class="remove-item btn-link text-red">
               <i class="fa-solid fa-xmark"></i>
             </button>
           </li>
-          <li>
+          <li class="item">
             Vivo
             <button class="remove-item btn-link text-red">
               <i class="fa-solid fa-xmark"></i>
             </button>
           </li>
-          <li>
+          <li class="item">
             Xiaomi
             <button class="remove-item btn-link text-red">
               <i class="fa-solid fa-xmark"></i>
             </button>
           </li>
-          <li>
+          <li class="item">
             Huawei
             <button class="remove-item btn-link text-red">
               <i class="fa-solid fa-xmark"></i>
             </button>
           </li>
-          <li>
-            Moto
+          <li class="item">
+            Samsung
             <button class="remove-item btn-link text-red">
               <i class="fa-solid fa-xmark"></i>
             </button>
           </li>
-          <li>
-            Oneplus
+          <li class="item">
+            Oppo
             <button class="remove-item btn-link text-red">
               <i class="fa-solid fa-xmark"></i>
             </button>
@@ -83,6 +85,12 @@
         <button id="clear" class="btn-clear">Clear All</button>
       </div>
     </div>
-    <script src="./JS/shopping-list.js"></script>
+    <!-- <script src="./JS/shopping-list.js"></script> -->
+    <!-- <script src="./JS/select-element.js"></script> -->
+    <!-- <script src="./JS/select-nodelist.js"></script> -->
+    <!-- <script src="./JS/select-multiple.js"></script> -->
+    <!-- <script src="./JS/traversing-element.js"></script> -->
+    <!-- <script src="./JS/create-element.js"></script> -->
+     <script src="./JS/refactor-create-element.js"></script>
   </body>
 </html>
