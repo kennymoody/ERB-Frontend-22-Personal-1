@@ -17,8 +17,13 @@ function onClick(e) {
 }
 logo.addEventListener("click", onClick);
 
+// document.querySelector("a").addEventListener("click", (e) => {
+//   e.preventDefault();
+//   console.log("Link Clicked");
+// });
 
-document.querySelector("a").addEventListener("click", (e) => {
-    e.preventDefault();
-    console.log("Link Clicked");
-})
+function onDrag(e) {
+  document.querySelector("h1").textContent = `X: ${e.clientX}, Y: ${e.clientY}`; 
+}
+
+logo.addEventListener("drag", onDrag);
