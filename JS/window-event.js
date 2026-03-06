@@ -8,9 +8,23 @@ window.addEventListener("resize", () => {
     `Resized to ${window.innerWidth} x ${window.innerHeight}`;
 });
 
-window.addEventListener("scroll", () =>
-  console.log(`window scrolled ${window.scrollX} x ${window.scrollY}`),
-);
+window.addEventListener("scroll", () => {
+  console.log(`window scrolled ${window.scrollX} x ${window.scrollY}`);
+  if (window.scrollY > 70) {
+    document.body.style.backgroundColor = "Yellow";
+  } else {
+    document.body.style.backgroundColor = "white";
+  }
+});
+
+window.addEventListener("focus", () => {
+  document.querySelectorAll("p").forEach((p) => (p.style.color = "red"));
+});
+
+window.addEventListener("blur", () => {
+  document.querySelectorAll("p").forEach((p) => (p.style.color = "black"));
+});
 
 const p = document.querySelector("p");
 p.addEventListener("click", () => console.log("paragraph clicked"));
+ 

@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="icon" type="image/x-icon" href="./IMG/favicon.ico" />
+    <title>Demo Travel Tour</title>
+  </head>
+  <body>
+    <div class="container" id="home">
+      <!-- Section - NAVBAR -->
+      <nav class="navbar">
+        <!-- <h1>DEMO TRAVEL PAGE</h1> -->
+        <div class="navbar-flex">
+          <img src="./IMG/travel-svgrepo-com.svg" alt="" class="logo" />
+          <ul class="main-menu-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#tours">Tours</a></li>
+          </ul>
+          <ul class="social-menu-list">
+            <li>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                class="nav-icon"
+                ><i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                class="nav-icon"
+                ><i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com" target="_blank" class="nav-icon"
+                ><i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- Mobile Menu -->
+          <div class="mobile-menu">
+            <div class="mobile-menu-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="mobile-menu-items">
+              <ul class="mobile-menu-list">
+                <li><a href="#home" class="mobile-menu-link">Home</a></li>
+                <li><a href="#about" class="mobile-menu-link">About</a></li>
+                <li><a href="#services" class="mobile-menu-link">Services</a></li>
+                <li><a href="#tours" class="mobile-menu-link">Tours</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Section - HERO -->
+      <section class="section hero">
+        <div class="hero-container">
+          <h1>Continue Exploring</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Corporis,Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <button class="hero-btn btn">
+            <a href="#tours">explore tours</a>
+          </button>
+        </div>
+      </section>
+      <!-- Section - ABOUT -->
+      <section class="section about" id="about">
+        <div class="about-container">
+          <h2>about <span>us</span></h2>
+          <div class="about-grid">
+            <div class="about-left">
+              <div class="about-image">
+                <img
+                  src="https://loremflickr.com/1200/600/parrot?random=3"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="about-info">
+              <h3>explore the difference</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Corporis,Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Vo
+              </p>
+              <button class="btn about-btn"><a href="#services">read more</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section - SERVICES -->
+      <section class="section services" id="services">
+        <div class="services-container">
+          <h2>our <span>Services</span></h2>
+          <div class="services-card-grid">
+            <card class="services-card-flex">
+              <span class="services-icon"
+                ><i class="fa-solid fa-wallet"></i
+              ></span>
+              <div class="services-info"><h4>Saving Money</h4></div>
+              <div class="services-text">
+                <p>Lorem ipsum dolor, sit amet consectetur</p>
+              </div>
+            </card>
+            <card class="services-card-flex">
+              <span class="services-icon"
+                ><i class="fa-solid fa-tree"></i
+              ></span>
+              <div class="services-info"><h4>Endless Hiking</h4></div>
+              <div class="services-text">
+                <p>Lorem ipsum dolor, sit amet consectetur</p>
+              </div>
+            </card>
+            <card class="services-card-flex">
+              <span class="services-icon"
+                ><i class="fa-solid fa-socks"></i
+              ></span>
+              <div class="services-info"><h4>Amazing Comfort</h4></div>
+              <div class="services-text">
+                <p>Lorem ipsum dolor, sit amet consectetur</p>
+              </div>
+            </card>
+          </div>
+        </div>
+      </section>
+      <!-- Section - TOURS -->
+      <section class="section tours" id="tours">
+        <div class="tours-container">
+          <h2>featured <span>tours</span></h2>
+          <div class="tour-card-grid">
+            <!-- TOUR CARD 1 -->
+            <div class="tour-card-container">
+              <div class="tour-card-image">
+                <img src="./IMG/tibet.jpg" alt="" />
+                <p class="tour-date">Sep 21st, 2026</p>
+              </div>
+              <div class="tour-card-title">
+                <h3>Tibet Adventure</h3>
+              </div>
+              <div class="tour-card-info">
+                <h3>Lorem ipsum dolor sit.</h3>
+              </div>
+              <div class="tour-card-details-container">
+                <span class="tour-card-details-logo"
+                  ><i class="fa-regular fa-map"></i>China</span
+                >
+                <div class="tour-card-details-day">6 Days</div>
+                <div class="tour-card-details-price">from $4000</div>
+              </div>
+            </div>
+            <!-- TOUR CARD 2 -->
+            <div class="tour-card-container">
+              <div class="tour-card-image">
+                <img src="./IMG/southkorea.jpg" alt="" />
+                <p class="tour-date">Aug 21st, 2026</p>
+              </div>
+              <div class="tour-card-title">
+                <h3>Seoul Adventure</h3>
+              </div>
+              <div class="tour-card-info">
+                <h3>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consabore!dfsdfdsfdsfdsfsf</h3>
+              </div>
+              <div class="tour-card-details-container">
+                <span class="tour-card-details-logo"
+                  ><i class="fa-regular fa-map"></i>South Korea</span
+                >
+                <div class="tour-card-details-day">7 Days</div>
+                <div class="tour-card-details-price">from $8000</div>
+              </div>
+            </div>
+            <!-- TOUR CARD 3 -->
+            <div class="tour-card-container">
+              <div class="tour-card-image">
+                <img src="./IMG/london.jpg" alt="" />
+                <p class="tour-date">Dec 21st, 2026</p>
+              </div>
+              <div class="tour-card-title">
+                <h3>London Adventure</h3>
+              </div>
+              <div class="tour-card-info">
+                <h3>Lorem ipsum dolor sit.</h3>
+              </div>
+              <div class="tour-card-details-container">
+                <span class="tour-card-details-logo"
+                  ><i class="fa-regular fa-map"></i>UK</span
+                >
+                <div class="tour-card-details-day">10 Days</div>
+                <div class="tour-card-details-price">from $12000</div>
+              </div>
+            </div>
+            <!-- TOUR CARD 4 -->
+            <div class="tour-card-container">
+              <div class="tour-card-image">
+                <img src="./IMG/tibet.jpg" alt="" />
+                <p class="tour-date">Sep 21st, 2026</p>
+              </div>
+              <div class="tour-card-title">
+                <h3>Tibet Adventure</h3>
+              </div>
+              <div class="tour-card-info">
+                <h3>Lorem ipsum dolor sit.</h3>
+              </div>
+              <div class="tour-card-details-container">
+                <span class="tour-card-details-logo"
+                  ><i class="fa-regular fa-map"></i>China</span
+                >
+                <div class="tour-card-details-day">6 Days</div>
+                <div class="tour-card-details-price">from $4000</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section - FOOTER -->
+      <section class="section footer">
+        <div class="footer-menu-items">
+          <ul class="footer-menu-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#tours">Tours</a></li>
+          </ul>
+          <ul class="footer-social-menu-list">
+            <li>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                class="nav-icon"
+                ><i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                class="nav-icon"
+                ><i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com" target="_blank" class="nav-icon"
+                ><i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            &copy; <span id="date"></span> Demo Travel Page
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="./JS/control.js"></script>
+    <script src="./JS/burgermenu.js"></script>
+  </body>
+</html>
