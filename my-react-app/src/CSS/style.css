@@ -232,7 +232,7 @@ ul.social-menu-list {
       var(--color-vintage-lavender-500),
       var(--color-vintage-lavender-800)
     ),
-    url("../IMG/landscape.png");
+    url("../assets/IMG/landscape.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -396,7 +396,6 @@ ul.social-menu-list {
   border-radius: var(--radius);
   box-shadow: var(--dark-shadow);
   transition: var(--trasition);
-  /* aspect-ratio: 4 / 3; */
 }
 
 .tour-card-container:hover {
@@ -405,6 +404,9 @@ ul.social-menu-list {
 
 .tour-card-image {
   position: relative;
+  img {
+     aspect-ratio: 4 / 3;
+  }
 }
 
 .tour-date {
