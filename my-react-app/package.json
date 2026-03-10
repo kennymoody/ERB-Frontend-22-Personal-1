@@ -1,7 +1,7 @@
 {
   "name": "my-react-app",
   "private": true,
-  "homepage": "https://kennymoody.github.io",
+  "homepage": ".",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
