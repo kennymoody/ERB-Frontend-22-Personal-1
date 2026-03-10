@@ -1,10 +1,14 @@
+import { useState } from "react";
 import SocialList from "./SocialList";
 import MenuList from "./MenuList";
 import logo from "../../src/assets/IMG/travel-svgrepo-com.svg";
 const NavBar = () => {
+  const [isToggled, setToggle] = useState(false);
+  const handleToggle = () => {
+    setToggle(!isToggled);
+  };
   return (
     <nav className="navbar">
-      {/* <!-- <h1>DEMO TRAVEL PAGE</h1> */}
       <div className="navbar-flex">
         <img src={logo} alt="" className="logo" />
         <ul className="main-menu-list">
@@ -15,12 +19,12 @@ const NavBar = () => {
         </ul>
         {/* // <!-- Mobile Menu --> */}
         <div className="mobile-menu">
-          <div className="mobile-menu-toggle">
+          <div className="mobile-menu-toggle" onClick={handleToggle}>
             <i className="fa-solid fa-bars"></i>
           </div>
-          <div className="mobile-menu-items">
+          <div className={`mobile-menu-items ${isToggled ? "active" : ""}`}>
             <ul className="mobile-menu-list">
-              <MenuList />
+              <MenuList onItemClick={handleToggle} />
             </ul>
           </div>
         </div>
