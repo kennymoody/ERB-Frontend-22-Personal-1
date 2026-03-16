@@ -19,10 +19,16 @@ export const services = [
   },
 ];
 
+import tour1 from "./src/assets/IMG/tibet.jpg";
+import tour2 from "./src/assets/IMG/southkorea.jpg";
+import tour3 from "./src/assets/IMG/london.jpg";
+import tour4 from "./src/assets/IMG/newyork.webp";
+import tour5 from "./src/assets/IMG/paris.jpg";
+
 export const tours = [
   {
     id: 1,
-    image: "./src/assets/IMG/tibet.jpg",
+    image: tour1,
     date: "Sep 21st, 2026",
     title: "Tibet Adventure",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptate.",
@@ -32,7 +38,7 @@ export const tours = [
   },
   {
     id: 2,
-    image: "./src/assets/IMG/southkorea.jpg",
+    image: tour2,
     date: "Aug 21st, 2026",
     title: "Seoul Adventure",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptate.",
@@ -42,7 +48,7 @@ export const tours = [
   },
   {
     id: 3,
-    image: "./src/assets/IMG/london.jpg",
+    image: tour3,
     date: "Dec 21st, 2026",
     title: "London Adventure",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptate.",
@@ -52,7 +58,7 @@ export const tours = [
   },
   {
     id: 4,
-    image: "./src/assets/IMG/newyork.webp",
+    image: tour4,
     date: "Dec 21st, 2026",
     title: "New York Adventure",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptate.",
@@ -62,7 +68,7 @@ export const tours = [
   },
   {
     id: 5,
-    image: "./src/assets/IMG/paris.jpg",
+    image: tour5,
     date: "Dec 21st, 2026",
     title: "Paris Adventure",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptate.",

@@ -5,8 +5,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: ['reactserver.kennymoody.net'], // DANGER: Allows requests from any host
+    allowedHosts: ["reactserver.kennymoody.net"], // DANGER: Allows requests from any host
     port: 5600,
   },
-  base: '/ERB-Frontend-22-Personal-1/'
+  base: "https://kennymoody.github.io/ERB-Frontend-22-Personal-1/",
 });
